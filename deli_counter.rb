@@ -14,3 +14,8 @@ def line(katz_deli)
 puts "The line is currently: #{new_line.join(" ")}"
 end
 end
+
+def take_a_number(katz_deli, string)
+  katz_deli.push(string)
+end
+  
